@@ -1,0 +1,4 @@
+interface:
+  display_name: "投资会议纪要"
+  short_description: "从转录与BP生成修正稿、Q&A和正式投资会议纪要文档"
+  default_prompt: "使用 $investment-meeting-minutes 处理这个投资会议项目文件夹。"
