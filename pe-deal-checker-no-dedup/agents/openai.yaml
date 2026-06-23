@@ -1,0 +1,4 @@
+interface:
+  display_name: "PE Deal Checker"
+  short_description: "Excel 初筛项目查重入库工具"
+  default_prompt: "Use $pe-deal-checker to build or run a local PE/私募项目 Excel 初筛查重 workflow."
