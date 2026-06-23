@@ -1,0 +1,4 @@
+interface:
+  display_name: "Query Project"
+  short_description: "Lookup PE/VC screening records from a local Excel-built index."
+  default_prompt: "Use $query-project to check whether this project short name appears in the local initial-screening database."
