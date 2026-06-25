@@ -1,0 +1,75 @@
+allowed_screening_categories:
+  - "通过"
+  - "放弃"
+  - "暂缓"
+  - "搁置"
+  - "孵化观察"
+  - "待补充"
+
+allowed_pass_statuses:
+  - "是"
+  - "否"
+  - "待定"
+
+sheet_defaults:
+  "通 过":
+    screening_category: "通过"
+    pass_status: "是"
+  "放弃":
+    screening_category: "放弃"
+    pass_status: "否"
+  "孵化及观察跟踪类":
+    screening_category: "孵化观察"
+    pass_status: "待定"
+
+special_tag_overrides:
+  "通过后投研放弃":
+    screening_category: "放弃"
+    pass_status: "否"
+  "通过但未正式启动":
+    screening_category: "通过"
+    pass_status: "是"
+  "老项目更新后再初筛":
+    screening_category: "待补充"
+    pass_status: "待定"
+
+status_patterns:
+  - contains: "通过转放弃"
+    screening_category: "放弃"
+    pass_status: "否"
+  - contains: "通过转搁置"
+    screening_category: "搁置"
+    pass_status: "待定"
+  - contains: "放弃转通过"
+    screening_category: "通过"
+    pass_status: "是"
+  - contains: "暂未跟进"
+    screening_category: "暂缓"
+    pass_status: "待定"
+  - contains: "待补充"
+    screening_category: "待补充"
+    pass_status: "待定"
+  - contains: "孵化"
+    screening_category: "孵化观察"
+    pass_status: "待定"
+  - contains: "观察"
+    screening_category: "孵化观察"
+    pass_status: "待定"
+  - contains: "搁置"
+    screening_category: "搁置"
+    pass_status: "待定"
+  - contains: "暂缓"
+    screening_category: "暂缓"
+    pass_status: "待定"
+  - contains: "放弃"
+    screening_category: "放弃"
+    pass_status: "否"
+  - contains: "否"
+    screening_category: "放弃"
+    pass_status: "否"
+  - contains: "通过"
+    screening_category: "通过"
+    pass_status: "是"
+  - contains: "是"
+    screening_category: "通过"
+    pass_status: "是"

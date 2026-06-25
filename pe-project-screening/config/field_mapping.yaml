@@ -1,0 +1,103 @@
+target_sheets:
+  - "通 过"
+  - "放弃"
+  - "孵化及观察跟踪类"
+
+fields:
+  project_short_name:
+    required: true
+    aliases:
+      - "项目简称"
+      - "项目名称"
+      - "简称"
+  company_name:
+    required: false
+    aliases:
+      - "公司全称"
+      - "企业全称"
+  founded_date:
+    required: false
+    aliases:
+      - "成立时间"
+      - "成立日期"
+  city:
+    required: false
+    aliases:
+      - "城市"
+      - "注册地"
+  listing_expectation:
+    required: false
+    aliases:
+      - "申报预期"
+  previous_valuation:
+    required: false
+    aliases:
+      - "前轮估值"
+  invested_institutions:
+    required: false
+    aliases:
+      - "已投机构"
+      - "投资机构"
+  pre_money_valuation:
+    required: false
+    aliases:
+      - "投前估值"
+      - "估值（万元）投前"
+      - "估值(万元)投前"
+      - "投前"
+  post_money_or_investment_amount:
+    required: false
+    aliases:
+      - "投后估值 / 本轮投资额"
+      - "投后/或本轮投资额"
+      - "投后或本轮投资额"
+      - "估值（万元）投后/或本轮投资额"
+      - "投后"
+      - "本轮投资额"
+  financing_deadline:
+    required: false
+    aliases:
+      - "融资截止时间"
+      - "融资截止日期"
+  main_business:
+    required: false
+    aliases:
+      - "主营业务"
+  value_description:
+    required: false
+    aliases:
+      - "价值：市场空间，重点客户，技术壁垒，团队和股东"
+      - "价值：市场空间、重点客户、技术壁垒、团队和股东"
+      - "价值说明"
+  last_year_revenue:
+    required: false
+    aliases:
+      - "上一年度收入"
+      - "上一年度收入额"
+      - "收入"
+  last_year_profit:
+    required: false
+    aliases:
+      - "上一年度利润"
+      - "利润"
+  source_raw:
+    required: false
+    aliases:
+      - "项目来源和录入时间"
+      - "项目来源及录入时间"
+      - "项目来源"
+  raw_status:
+    required: false
+    aliases:
+      - "是否通过"
+      - "是否 通过"
+      - "初筛结论"
+  remark_or_reject_reason:
+    required: false
+    aliases:
+      - "备注 / 否决原因"
+      - "备注/否决原因"
+      - "备注："
+      - "备注"
+      - "否决原因"
+      - "否决 原因"

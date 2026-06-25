@@ -1,0 +1,4 @@
+interface:
+  display_name: "PE 项目初筛管理"
+  short_description: "管理项目表导入、项目查询、初筛历史、日志记录与数据库导出"
+  default_prompt: "使用 $pe-project-screening 初始化或管理本地 PE 项目初筛数据库。"
